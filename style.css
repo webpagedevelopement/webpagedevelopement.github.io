@@ -10,6 +10,8 @@ img {
   th {
     size: 100px;
  }
- text { 
+ 
+ title, h1, h2, p, b, { 
     font-size: 20;
+      color: white;
  }
