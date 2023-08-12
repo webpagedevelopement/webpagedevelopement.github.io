@@ -1,4 +1,4 @@
-<style>
+
 address {
         color: blue;
         
@@ -15,3 +15,8 @@ img {
     font-size: 20;
       color: white;
  }
+ 
+ h1 {
+  background: #B3B3B3;
+  font-size: 150%;
+}
