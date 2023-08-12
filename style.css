@@ -16,7 +16,7 @@ img {
       color: white;
  }
  
- h1 {
+ h1, nav {
   background: #B3B3B3;
   font-size: 150%;
 }
