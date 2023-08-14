@@ -17,3 +17,30 @@ p{
     width: 200px;
     height: 100px;
 }
+
+span{
+    height: 50px;
+    width: 75px;
+    background: #9bff00a6;
+    /*display: try block and inline block /*float*/
+    display: inline-block;
+    float: right;
+    clear: left;
+}
+
+span {}
+div{
+    height: 100px;
+    width: 45%;
+    background: #f0ff26;
+    /*display:; */
+    /* float:; */
+    display: block;
+    clear: both;
+}
+p{
+    background: #ff9e9e;
+    width: 200px;
+    height: 100px;
+    float: right;
+}
