@@ -16,7 +16,17 @@ img {
       color: white;
  }
  
- h1, nav {
+ h1, nav, tr {
   background: #B3B3B3;
   font-size: 150%;
+}
+
+span{
+  height: 75px;
+  width: 155px;
+  background: #5d6355a6;
+  /*display: try block and inline block /*float*/
+  display: inline-block;
+  float: right;
+  clear: left;
 }
