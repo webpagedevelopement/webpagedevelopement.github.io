@@ -4,7 +4,7 @@ address {
         
 }
 img {
-    width: 50%;
+    width: 30%;
   }
 
   th {
@@ -13,13 +13,8 @@ img {
  
  title, h1, h2, p, b, { 
     font-size: 20;
-      color: white;
- }
- 
- h1, nav, tr {
-  background: #B3B3B3;
-  font-size: 150%;
-}
+    }
+
 
 span{
   height: 75px;
@@ -31,5 +26,6 @@ span{
   clear: left;
 }
 body{ 
-  background-color: lawngreen;
+  background-color: rgb(70, 124, 17);
+  
 }
