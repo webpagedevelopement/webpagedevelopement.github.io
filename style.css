@@ -16,7 +16,6 @@ img {
     
     }
 
-
 span{
   height: 75px;
   width: 155px;
@@ -26,6 +25,6 @@ span{
  
 }
 body{ 
-  background-color: rgb(70, 124, 17);
+  background-color: rgba(85, 28, 28, 0.279);
   
 }
