@@ -13,6 +13,7 @@ img {
  
  title, h1, h2, p, b, { 
     font-size: 20;
+    
     }
 
 
@@ -21,9 +22,8 @@ span{
   width: 155px;
   background: #5d6355a6;
   /*display: try block and inline block /*float*/
-  display: inline-block;
-  float: right;
-  clear: left;
+ 
+ 
 }
 body{ 
   background-color: rgb(70, 124, 17);
