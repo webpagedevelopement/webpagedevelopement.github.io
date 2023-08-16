@@ -5,16 +5,14 @@ address {
 }
 img {
     width: 30%;
+    float: right;
+    
   }
 
   th {
     size: 100px;
  }
- 
- title, h1, h2, p, b, { 
-    font-size: 20;
-    
-    }
+
 
 span{
   height: 75px;
