@@ -12,16 +12,13 @@ h1 {
 
 address {
         color: blue;
-        text-align: justify;
+        text-align: center;
         
 }
 img {
     width: max-content;
-    align-content: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: auto;
+    display: block;
     
   }
 
