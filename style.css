@@ -12,6 +12,9 @@ img {
   th {
     size: 100px;
     width: 200%;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
  }
 
 
