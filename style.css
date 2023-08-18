@@ -2,9 +2,10 @@ h1 {
   background-size: cover;
   background-color: black;
   color: aliceblue;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   font-size: 36;
+  padding: auto;
 }
 
 
