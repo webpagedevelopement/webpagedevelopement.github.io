@@ -12,7 +12,7 @@ h1 {
 
 
 address {
-        color: blue;
+        color: rgb(92, 92, 248);
         text-align: center;
         font-size: 36;
         
@@ -21,6 +21,7 @@ img {
     width: max-content;
     margin: auto;
     display: block;
+    border: 2px solid maroon
     
   }
 
@@ -30,6 +31,7 @@ img {
     font-size: larger;
     font-weight: 400;
     font-family: 'roboto', sans-serif;
+    font-size: x-large;
  }
 
 
@@ -42,14 +44,14 @@ span{
  
 }
 body{ 
-  background-color: rgba(85, 28, 28, 0.75);
+  background-color: rgba(20, 20, 20, 0.75);
   
 }
 footer {
   font-size: 24;
   font-weight: 400;
-  color: rgb(0, 56, 105);
-  margin: 10px solid black;
+  color: rgb(95, 180, 255);
+  margin: 10px solid rgb(252, 249, 249);
   padding: 2em;
   text-align: center;
   }
@@ -59,6 +61,7 @@ footer {
   font-size: x-large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+  color:white
   
  }
  
