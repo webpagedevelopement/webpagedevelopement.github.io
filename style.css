@@ -64,3 +64,8 @@ footer {
         height: 100px;
         width: 100px;
  }
+ p{
+  text-align: center;
+  font-size: larger;
+  font-family: 'Lucida Sans', 
+  sans-serif }
