@@ -1,6 +1,6 @@
 h1 {
   background-size: cover;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: aliceblue;
   text-align: left;
   font-weight: 500;
@@ -35,16 +35,9 @@ img {
  }
 
 
-span{
-  height: 75px;
-  width: 155px;
-  background: #5d6355a6;
-  /*display: try block and inline block /*float*/
- 
- 
-}
+
 body{ 
-  background-color: rgba(20, 20, 20, 0.75);
+  background-color:black;
   
 }
 footer {
