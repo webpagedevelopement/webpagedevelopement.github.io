@@ -1,11 +1,21 @@
+h1 {
+  background-size: cover;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36;
+}
+
+
 
 address {
         color: blue;
         
 }
 img {
-    width: 30%;
-    float: right;
+    width: 20%;
+    float: ;
     
   }
 
