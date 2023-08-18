@@ -9,7 +9,7 @@ img {
     
   }
 
-  th {
+ .select1, .select2{
     size: 100px;
     width: 200%;
     font-size: larger;
