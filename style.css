@@ -61,6 +61,7 @@ footer {
  .soc{
         height: 400px;
         width: 400px;
+        
  }
  .panda{
   text-align: center;
@@ -68,4 +69,17 @@ footer {
   font-family: 'Lucida Sans', 
   sans-serif;
   color: white;   
+}
+.fo{
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: maroon;
+
+}
+p{ 
+  text-align: center;
+  color: white;
+font-family: Helvetica, sans-serif;
+font-size: large;
 }
