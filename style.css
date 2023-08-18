@@ -16,11 +16,11 @@ address {
 }
 img {
     width: max-content;
-    float: ;
+    align-content: center;
     
   }
 
- .select1, .select2{
+ .select2{
     size: 100px;
     width: 200%;
     font-size: larger;
@@ -50,4 +50,10 @@ footer {
   text-align: center;
   }
   
-}
+ h2{
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  
+ }
