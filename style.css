@@ -59,10 +59,10 @@ footer {
  }
  
  .soc{
-        height: 100px;
-        width: 100px;
+        height: 400px;
+        width: 400px;
  }
- p{
+ .panda{
   text-align: center;
   font-size: larger;
   font-family: 'Lucida Sans', 
