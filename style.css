@@ -63,6 +63,7 @@ footer {
  .soc{
         height: 400px;
         width: 400px;
+        margin: auto;
         
  }
  .panda{
@@ -87,6 +88,8 @@ background-size: cover;
 
 .amz{
   color: yellow;
+  font-weight: 400;
+  font-size: 24;
 }
 p{
   text-align: center;
