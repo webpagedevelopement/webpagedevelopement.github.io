@@ -1,14 +1,14 @@
-.navbar{
-    background-color: #333; 
-    overflow: hidden;
-  }
+
+
   .navbar{
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 4em;
+    background-color: black;
+    
+    
   }
   
   
