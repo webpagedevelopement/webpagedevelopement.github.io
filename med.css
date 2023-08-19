@@ -10,8 +10,20 @@
     color: bisque;
     background-size: cover;
     clear: both;
+    margin: 10em;
 
 }
 h1{
     clear: both;
 }
+
+.foo{ 
+    text-align: right;
+    color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  background-color: red;
+  background-size: cover;
+  margin: 4em;
+  background-size: cover;
+  }
