@@ -77,6 +77,7 @@ footer {
   background-color: maroon;
 
 }
+
 foo{ 
   text-align: center;
   color: white;
@@ -84,4 +85,8 @@ font-family: Helvetica, sans-serif;
 font-size: large;
 background-color: maroon;
 background-size: cover;
+}
+
+.amz{
+  color: yellow;
 }
