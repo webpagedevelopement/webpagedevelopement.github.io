@@ -1,17 +1,18 @@
 
 
  
-/*Navbar Functionality*/
+/*Navbar*/
 #navbar{
   display:flex;
   flex-direction: column;
-  background-color: gray;
+  background-color: rgb(87, 84, 84);
   height: 14vh;
   width: 100vw;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top:10px;
  border: 2px solid black;
  border-radius:15px;
+ 
 }
 
   
