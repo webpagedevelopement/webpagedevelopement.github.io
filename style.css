@@ -98,3 +98,8 @@ p{
   color: white;
 
 }
+span{
+  float: flex;
+  display: flexbox;
+  
+}
