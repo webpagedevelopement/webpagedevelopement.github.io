@@ -56,7 +56,7 @@ footer {
   font-size: larger;
   font-family: 'Lucida Sans', 
   sans-serif;
-  color: white;   
+  color: rgb(0, 0, 0);   
 }
 .foo{ 
   text-align: right;
