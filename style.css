@@ -100,6 +100,6 @@ p{
 }
 span{
   float: flex;
-  display: flexbox;
+  display: inline-block;
   
 }
