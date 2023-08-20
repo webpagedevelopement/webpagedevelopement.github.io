@@ -1,15 +1,19 @@
 
 
-  .navbar{
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 1em;
-    background-color: rgb(255, 255, 255);
-    padding: 100px;
-    
-    
-  }
+ 
+/*Navbar Functionality*/
+#navbar{
+  display:flex;
+  flex-direction: column;
+  background-color: gray;
+  height: 14vh;
+  width: 100vw;
+  font-family: 'Ubuntu Mono', monospace;
+  margin-top:10px;
+ border: 2px solid black;
+ border-radius:15px;
+}
+
   
   
 h1{
