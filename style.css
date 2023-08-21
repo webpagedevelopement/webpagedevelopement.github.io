@@ -90,3 +90,12 @@ div .topbox{
   padding: auto;
   line-height: 200%;
 }
+span{
+  height: 50px;
+  width: 75px;
+  background: #9bff00a6;
+  /*display: try block and inline block /*float*/
+  display: inline-block;
+  float: right;
+  clear: left;
+}
