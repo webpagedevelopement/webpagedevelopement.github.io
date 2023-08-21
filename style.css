@@ -91,8 +91,8 @@ div .topbox{
   line-height: 200%;
 }
 span{
-  height: 50px;
-  width: 75px;
+  height: min-content;
+  width: min-content;
   background: #9bff00a6;
   /*display: try block and inline block /*float*/
 
