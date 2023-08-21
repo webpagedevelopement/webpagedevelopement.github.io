@@ -95,7 +95,6 @@ span{
   width: 75px;
   background: #9bff00a6;
   /*display: try block and inline block /*float*/
-  display: inline-block;
-  float: right;
-  clear: left;
+  display:block;
+  clear: both;
 }
