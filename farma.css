@@ -6,7 +6,7 @@ h1,h2,h3{
     text-underline-position: below;
 }
 p{
-    text-align: center;
+    text-align: justify;
     font-size: larger;
     color: blue;
 }
@@ -17,5 +17,7 @@ body{
 }
 li{
     font-weight: 500;
+    color: blue;
+    text-align: justify;
     
 }
