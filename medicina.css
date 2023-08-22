@@ -1,0 +1,16 @@
+h1{
+    font-weight: 700;
+    font-size: xx-large;
+    color: red;
+    text-align: left;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
+body{
+    background-color: cornsilk;
+    border: 5em;
+    
+}
