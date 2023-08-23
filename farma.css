@@ -21,3 +21,14 @@ li{
     text-align: justify;
     
 }
+.foo{ 
+    text-align: right;
+    color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  background-color: maroon;
+  background-size: cover;
+  margin: 4em;
+  background-size: cover;
+  }
+  
