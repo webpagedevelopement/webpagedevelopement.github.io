@@ -29,9 +29,10 @@ li{
   font-size: large;
   background-color: rgb(255, 0, 0);
   background-size: cover;
-  margin: 1em;
+  margin: .2em;
   background-size: cover;
   }
   nav {
     text-align: center;
+
   }
