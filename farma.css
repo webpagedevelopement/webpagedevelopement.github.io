@@ -19,7 +19,7 @@ li{
     font-weight: 500;
     color: blue;
     text-align: right;
-    float: left;
+    
     
 }
 .foo{ 
@@ -32,4 +32,6 @@ li{
   margin: 1em;
   background-size: cover;
   }
-  
+  nav {
+    text-align: center;
+  }
