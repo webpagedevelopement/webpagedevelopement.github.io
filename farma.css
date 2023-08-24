@@ -18,7 +18,8 @@ body{
 li{
     font-weight: 500;
     color: blue;
-    text-align: justify;
+    text-align: right;
+    float: left;
     
 }
 .foo{ 
