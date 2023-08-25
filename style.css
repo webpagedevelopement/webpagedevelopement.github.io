@@ -114,3 +114,6 @@ border: 2px solid black;
 .flex-containerb{
   writing-mode: vertical-lr;
 }
+img{
+  transform: scaleX(-1);
+}
