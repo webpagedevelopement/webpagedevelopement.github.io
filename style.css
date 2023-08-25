@@ -110,3 +110,6 @@ border: 2px solid black;
   font-size: 30px;
   border: 2px solid black;
 }
+.flex-containerb{
+  writing-mode: vertical-lr;
+}
