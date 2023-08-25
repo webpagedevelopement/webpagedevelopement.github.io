@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 div .header {
   background-size: cover;
   background-color: maroon;
@@ -89,10 +93,20 @@ div .topbox{
   padding: auto;
   line-height: 200%;
 }
-span{
-  height: min-content;
-  width: min-content;
-  background: #9bff00a6;
-  /*display: try block and inline block /*float*/
 
+
+.containera{
+display: flex;
+background-color: burlywood;
+padding: 10px;
+border: 2px solid black;
+}
+.containera a{
+  background-color: gainsboro;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
 }
