@@ -41,12 +41,5 @@ footer{
     text-align: center;
     background-color: palevioletred;
 }
-@media screen and (max-width: 700px;){
-    nav, .row{
-        flex-direction: column;
-    }
-}
+
     
-}
-    
-}
