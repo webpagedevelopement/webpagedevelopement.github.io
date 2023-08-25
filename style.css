@@ -89,6 +89,7 @@ nav {
 
 .nav_links {
     list-style: none;
+    color: black;
 }
 
 .nav_links li a {
