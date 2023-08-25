@@ -95,13 +95,13 @@ div .topbox{
 }
 
 
-.containera{
+.flex-container{
 display: flex;
 background-color: burlywood;
 padding: 10px;
 border: 2px solid black;
 }
-.containera a{
+.flexcontainer a{
   background-color: gainsboro;
   width: 100%;
   margin: 10px;
