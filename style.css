@@ -116,3 +116,7 @@ button:hover {
 body {
   background-color: antiquewhite;
 }
+
+.orient h1 {
+   text-orientation: upright;
+}
