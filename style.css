@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: rgb(88, 88, 88);
 }
 
 address {
@@ -34,6 +34,7 @@ address {
         width: 400px;
         margin: auto;
         padding: 30px;
+        align-items: center;
  }
 
 .panda {
