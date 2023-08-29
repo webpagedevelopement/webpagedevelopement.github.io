@@ -137,3 +137,7 @@ body {
   margin: 15px; /* Padding for content */
   margin-top: 0;
 }
+
+iframe{
+  justify-content: center;
+}
