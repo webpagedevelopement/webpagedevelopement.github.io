@@ -94,13 +94,6 @@ ul{
 
 }
 
-.navy{
-    list-style: none;
-    color: black;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
@@ -130,4 +123,17 @@ body {
 .orient h1 {
    text-orientation: upright;
    background-color: whitesmoke;
+}
+
+#rightmenu {
+  float: left;
+  width: 210px;
+  margin-left: -210px;
+  padding-bottom: 10010px;
+  margin-bottom: -10000px;
+  background: #DAE9BC;
+}
+.innertube{
+  margin: 15px; /* Padding for content */
+  margin-top: 0;
 }
