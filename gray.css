@@ -20,25 +20,22 @@ header{
 }
 
 .main{
-    display: flex;
-    flex: 1;
+   flex: auto;
+   
 }
 
 .left{
     background: blue;
-    padding: 3em 0 3em 0;
-    flex: 5 5 150px;
-}
+   flex: auto;
 
 main{
     background: aqua;
-    padding: 3em 0 3em 0;
-    flex: 5 5 150;
+   flex: auto;
 }
 
 .right{
     background: blue;
-    padding:  3em 0 3em 0;
+  flex: auto;
 }
 
 footer{
