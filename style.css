@@ -87,11 +87,19 @@ header {
 
 nav {
   background-color: black;
+
 }
 
-.nav_links {
+ul{
+
+}
+
+.navy{
     list-style: none;
     color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav_links li a {
