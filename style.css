@@ -16,12 +16,11 @@ header img {
 
 header a{
   background-color:  rgba(100, 148, 237, 0.466); 
-  margin: 5px;
-padding: 5px;
-font-size: 12px;
+padding: 1px;
+font-size: 10px;
 justify-content: center;
-font-weight: 700;
-font-size: larger;
+font-weight: 400;
+font-size: medium;
 color: black;
 border-radius: 5px;
 }
