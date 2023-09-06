@@ -5,6 +5,12 @@ header {
   background-color: rgba(100, 148, 237, 0.466);
   display: flex;
 }
+
+header img {
+  height: 50px;
+  width: auto;
+}
+
 header a{
   background-color: darkcyan; 
   margin: 5px;
