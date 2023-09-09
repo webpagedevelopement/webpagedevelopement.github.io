@@ -1,10 +1,12 @@
 body{
-  background-color: rgba(107, 208, 255, 0.548);
+  background-image: url("gras.gif");
+  background-size: cover;
   font-family: serif;
 }
 
 header {
-  background-color: rgba(100, 148, 237, 0.466);
+  background-color: cornflowerblue;
+  background-size: cover;
   display: flex;
   padding: 20px;
 }
@@ -15,8 +17,8 @@ header img {
 }
 
 header a{
-  background-color:  rgba(100, 148, 237, 0.466); 
-padding: 1px;
+  background-color:  rgba(100, 148, 237, 0.61); 
+padding: 5px;
 font-size: 10px;
 justify-content: center;
 font-weight: 400;
@@ -39,13 +41,15 @@ header button {
 
 marquee {
   background-color: cornflowerblue;
-  justify-content: center;
+ 
 }
 section {
-  background-color: rgba(169, 169, 169, 0.534);
+  background-image: url(aitxt.gif);
+  background-size: cover;
   padding: 5px;
   border-radius: 10px;
   font-size: x-large;
+  color: aliceblue;
 }
 
 section a {
