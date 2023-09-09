@@ -2,6 +2,7 @@ body{
   background-image: url("gras.gif");
   background-size: cover;
   font-family: serif;
+}
 
 header {
   background-color: rgba(100, 148, 237, 0.596);
