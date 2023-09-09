@@ -2,10 +2,9 @@ body{
   background-image: url("gras.gif");
   background-size: cover;
   font-family: serif;
-}
 
 header {
-  background-color: cornflowerblue;
+  background-color: rgba(100, 148, 237, 0.596);
   background-size: cover;
   display: flex;
   padding: 20px;
@@ -40,13 +39,12 @@ header button {
 }
 
 marquee {
-  background-color: cornflowerblue;
+  background-color: rgba(100, 148, 237, 0.555);
  
 }
 section {
   background-image: url(aitxt.gif);
   background-size: cover;
-  padding: 5px;
   border-radius: 10px;
   font-size: x-large;
   color: aliceblue;
