@@ -1,0 +1,126 @@
+body{
+  background-image: url("gras.gif");
+  background-size: cover;
+  font-family: serif;
+}
+
+header {
+  background-color: rgba(100, 148, 237, 0.596);
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+}
+
+header img {
+  height: 10%;
+  width: 10%;
+}
+
+header a{
+  background-color:  rgba(100, 148, 237, 0.61); 
+padding: 5px;
+font-size: 10px;
+justify-content: center;
+font-weight: 400;
+font-size: medium;
+color: black;
+border-radius: 5px;
+}
+
+header button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+}
+
+marquee {
+  background-color: rgba(100, 148, 237, 0.555);
+ 
+}
+section {
+  background-image: url(aitxt.gif);
+  background-size: cover;
+  border-radius: 10px;
+  font-size: x-large;
+  color: aliceblue;
+}
+
+section a {
+   text-align: right;
+}
+
+article {
+  background-color: rgba(211, 211, 211, 0.568);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+figure {
+   display: flex;
+   background-color: lightgreen;
+   padding: 5px;
+ border-radius: 10px;
+}
+
+figure img{
+  display: flex;
+  align-items: left;
+  padding: 20px;
+}
+figure div {
+  display: flex;
+  text-align: right;
+  flex-wrap: wrap;
+}
+
+.mail {
+  background-color: rgba(178, 110, 255, 0.521);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: right;
+}
+.soc {
+  background-color: rgba(255, 6, 255, 0.322);
+  padding: 35px;
+}
+
+.soc a {
+  display: inline-block;
+  padding: 15px;
+  border: 4px solid rgba(0, 128, 0, 0.534);
+}
+
+.soc a:hover{
+  color: fuchsia;
+}
+
+
+
+.amz {
+  background-color: yellow;
+  padding: 15px;
+  clear: both;
+  font-size: x-large;
+  font-weight: 400;
+  color: black;
+}
+
+
+footer {
+  background-color: rgba(222, 184, 135, 0.514);
+  font-size: medium;
+  padding: 30px;
+}
+footer b {
+  background-color: rgba(255, 0, 0, 0.582);
+  padding: 15px;
+  float: right;
+}
+
+ 

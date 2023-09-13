@@ -1,126 +1,127 @@
-body{
-  background-image: url("gras.gif");
-  background-size: cover;
-  font-family: serif;
-}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+ body{
+    font-family: monserrat,Helvetica; 
+    background-color: rgb(22, 22, 22);
+ }
+ nav{
+    background: #12a0ff;
+    height: 80px;
+    width: 100%;
 
-header {
-  background-color: rgba(100, 148, 237, 0.596);
-  background-size: cover;
+  }
+  label.logo{
+    color: rgb(49, 49, 49);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a { 
+    color: rgb(46, 46, 46);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 200%;
+    color: rgb(53, 53, 53);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+ }
+ nav ul li a{
+    font-size: 16px;
+ }
+}
+ @media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checkered ~ ul{
+        left: 0;
+    }
+}
+section{  
+    height: calc{100vh - 80px};
+}
+section h1{
+  color: rgb(0, 162, 255);
+  font-weight: bold;
   display: flex;
-  padding: 20px;
-}
-
-header img {
-  height: 10%;
-  width: 10%;
-}
-
-header a{
-  background-color:  rgba(100, 148, 237, 0.61); 
-padding: 5px;
-font-size: 10px;
-justify-content: center;
-font-weight: 400;
-font-size: medium;
-color: black;
-border-radius: 5px;
-}
-
-header button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  justify-content: center;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  padding: 10px 24px;
+  font-size: xxx-large;
+  padding: 15px;
+  flex-direction: column;
 }
-
-marquee {
-  background-color: rgba(100, 148, 237, 0.555);
- 
-}
-section {
-  background-image: url(aitxt.gif);
-  background-size: cover;
-  border-radius: 10px;
-  font-size: x-large;
-  color: aliceblue;
-}
-
-section a {
-   text-align: right;
-}
-
-article {
-  background-color: rgba(211, 211, 211, 0.568);
-  padding: 5px;
-  border-radius: 10px;
-}
-
-figure {
-   display: flex;
-   background-color: lightgreen;
-   padding: 5px;
- border-radius: 10px;
-}
-
-figure img{
+section h5{
+  text-align: center;
   display: flex;
-  align-items: left;
   padding: 20px;
-}
-figure div {
-  display: flex;
-  text-align: right;
-  flex-wrap: wrap;
-}
-
-.mail {
-  background-color: rgba(178, 110, 255, 0.521);
-  padding: 10px;
-  border-radius: 10px;
-  text-align: right;
-}
-.soc {
-  background-color: rgba(255, 6, 255, 0.322);
-  padding: 35px;
-}
-
-.soc a {
-  display: inline-block;
-  padding: 15px;
-  border: 4px solid rgba(0, 128, 0, 0.534);
-}
-
-.soc a:hover{
-  color: fuchsia;
-}
+  flex-direction: column;
+  font-size: large;
+  color: rgba(0, 153, 255, 0.938);
+  margin: 10px;
+  }
+  section button{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 132, 255);
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
 
 
-
-.amz {
-  background-color: yellow;
-  padding: 15px;
-  clear: both;
-  font-size: x-large;
-  font-weight: 400;
-  color: black;
-}
-
-
-footer {
-  background-color: rgba(222, 184, 135, 0.514);
-  font-size: medium;
-  padding: 30px;
-}
-footer b {
-  background-color: rgba(255, 0, 0, 0.582);
-  padding: 15px;
-  float: right;
-}
-
- 
