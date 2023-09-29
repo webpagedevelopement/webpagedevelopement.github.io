@@ -8,8 +8,7 @@ html{
     padding: 5px;
 }
 body{
-    background-image: url(lightpaint.jpg);
-    background-attachment: fixed;
+    background-color: cornflowerblue;
     padding: 5px;
 }
 #wrapper{
@@ -49,7 +48,7 @@ body{
 #nav-div{
     width: 100%;
     min-height: 30px;
-    background-color: rgba(163, 163, 163, 0.493);
+    background-color: rgb(163, 163, 163);
     text-align: center;
     line-height: 30px;
     margin-bottom: 10px;
@@ -100,8 +99,7 @@ body{
     width: 100%;
     min-height: 50px;
     background-color: rgb(73, 73, 73);
-    text-align: right;
-    padding: 10px;
+    text-align: center;3.
 }
 #nav-div{
     padding: 1px;
@@ -119,7 +117,6 @@ body{
     color: antiquewhite;
     font-weight: 700;
     font-family: monospace;
-    max-width: 100%;
 }
 #side-div>p{
     margin: 0px;
@@ -139,14 +136,6 @@ body{
 }
 #copy{
     text-align: left;
-    padding: 0px;
-}
-#contact{
-    margin: 0px;
-    padding: 0px;
-}
-#phone{
-    margin: 0px;
     padding: 0px;
 }
 #navlinks>a:hover{background-color: cadetblue;transition: .1s;}
