@@ -11,8 +11,6 @@ body{
     background-image: url(lightpaint.jpg);
     background-attachment: fixed;
     padding: 5px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #wrapper{
     width: 100%;
@@ -27,21 +25,18 @@ body{
     padding-left: 2%;
     line-height: 25px;
     margin-bottom: 10px;
+    text-align: right;
     font-size: x-large;
     font-weight: 600;
     display: flex;
     padding: 0px;
     flex-wrap: wrap;
-    display: inline-block;
 }
-#logo-div>p{
+#logo-div p{
     text-align: right;
-    display: inline-block;
-    margin-top: 15px;
-    float: right;
-}
-#logolinks{
-    display: inline-block;
+    position: absolute;
+    right: 10px;
+    flex-wrap: wrap;
 }
 #logolinks>a{
     background-color: rgb(141, 141, 141);
@@ -50,7 +45,6 @@ body{
     color: black;
     border-radius: 10px;
     text-decoration: none;
-    display: inline-block;
 }
 #nav-div{
     width: 100%;
@@ -59,7 +53,6 @@ body{
     text-align: center;
     line-height: 30px;
     margin-bottom: 10px;
-    display: flex;
 }
 #headerb{
     width: 100%;
@@ -69,7 +62,6 @@ body{
     line-height: 100px;
     margin-bottom: 10px;   
     padding: 0%;
-    margin-top: 10px;
 }
 #headerb>p{
     font-size: 35px;
@@ -82,7 +74,6 @@ body{
     padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
-    display: inline;
 }
 #main-div{
     width: 100%;
@@ -98,19 +89,12 @@ body{
     float: left;
     background-color: lightgray;
     min-height: 400px;
-    display: inline-table;
-    padding: 10px;
 }   
 #body-div{
-    width: 72%;
+    width: 75%;
     min-height: 400px;
     background-color: lightgray;
     float: right;
-    display: table;
-    color: antiquewhite;
-    background-color: rgb(59, 59, 59);
-    font-size: 24px;
-    line-height: 30px;
 }
 #footer-div{
     width: 100%;
@@ -121,11 +105,6 @@ body{
 }
 #nav-div{
     padding: 1px;
-    display: inline-block;
-    margin: 0 auto;
-}
-#navlinks{
-    padding: 20px;
 }
 #navlinks>a{
     background-color: rgb(117, 117, 117);
@@ -134,7 +113,6 @@ body{
     color: black;
     border-radius: 10px;
     text-decoration: none;
-    display: inline-block;
 }
 #side-div{
     background-color: rgb(59, 59, 59);
@@ -150,7 +128,12 @@ body{
     text-align: justify;
     font-size: 35px;
 }
-
+#body-div{
+    color: antiquewhite;
+    background-color: rgb(59, 59, 59);
+    font-size: 24px;
+    line-height: 30px;
+}
 #body-div>h1{
     padding: 15px;
 }
@@ -166,10 +149,8 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
 #navlinks>a:hover{background-color: cadetblue;transition: .1s;}
-#headerb:hover{ background-color: black;transition: 0.75s;}
+#headerb:hover{background-color: black;transition: 0.75s;}
 #headerb>p:hover{color: lightgray;transition:}
-#side-div>p:hover{font-size: 39px;}
-#headerb:hover .banner-div{color: antiquewhite;}
+#side-div>p:hover{font-size: 38px;}
 
