@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
     padding: 50px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +16,7 @@ body{
 }
 #wrapper{
     width: 100%;
-    background-color: rgba(255, 166, 0, 0.103);
+    background-color: rgba(255, 166, 0, 0);
     margin: auto;
     padding: 2px;
 }
@@ -37,10 +37,12 @@ body{
 #logo-div>p{
     text-align: right;
     display: inline-block;
-    margin-top: 15px;
     float: right;
+    padding: 0;
+    margin-top: 15px;
 }
 #logolinks{
+    padding: 0px;
     display: inline-block;
 }
 #logolinks>a{
@@ -51,6 +53,7 @@ body{
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
+    size: 10%;
 }
 #nav-div{
     width: 100%;
@@ -78,14 +81,16 @@ body{
 }
 #headerb>a{
     color: black;
-    background-color: antiquewhite;
+    background-color: rgb(250, 223, 248);
     padding: 10px;
     border-radius: 5px;
     border: 2px solid black;
     display: inline;
+    text-decoration: none;
 }
 #main-div{
     width: 100%;
+    margin-left: 20px;
    
 }
 .clearfix::after{
@@ -106,11 +111,12 @@ body{
     min-height: 400px;
     background-color: lightgray;
     float: right;
-    display: table;
+    display: inline-table;
     color: antiquewhite;
     background-color: rgb(59, 59, 59);
-    font-size: 24px;
+    font-size: 110%;
     line-height: 30px;
+    padding-left: 20px;
 }
 #footer-div{
     width: 100%;
@@ -170,6 +176,6 @@ body{
 #navlinks>a:hover{background-color: cadetblue;transition: .1s;}
 #headerb:hover{ background-color: black;transition: 0.75s;}
 #headerb>p:hover{color: lightgray;transition:}
-#side-div>p:hover{font-size: 39px;}
+#side-div>p:hover{font-size: 250%;color: greenyellow;}
 #headerb:hover .banner-div{color: antiquewhite;}
-
+#nav-div:hover{background-color: rgba(0, 0, 0, 0.507);}
