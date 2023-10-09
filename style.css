@@ -8,11 +8,11 @@ html{
     padding: 5px;
 }
 body{
-    background-image: url(lightpaint.jpg);
+    background-image: url("lightpaint.jpg");
     background-attachment: fixed;
-    padding: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5px;
 }
 #wrapper{
     width: 100%;
@@ -117,6 +117,7 @@ body{
     font-size: 110%;
     line-height: 30px;
     padding-left: 20px;
+    border: 1px solid plum;
 }
 #footer-div{
     width: 100%;
@@ -130,8 +131,15 @@ body{
     display: inline-block;
     margin: 0 auto;
 }
+#portfolio{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+    padding-top: 15px;
+    font-size: 125%;
+}
 #navlinks{
-    padding: 20px;
+    padding: 10px;
 }
 #navlinks>a{
     background-color: rgb(117, 117, 117);
@@ -148,6 +156,7 @@ body{
     font-weight: 700;
     font-family: monospace;
     max-width: 100%;
+    border: 1px solid plum;
 }
 #side-div>p{
     margin: 0px;
@@ -179,3 +188,4 @@ body{
 #side-div>p:hover{font-size: 250%;color: greenyellow;}
 #headerb:hover .banner-div{color: antiquewhite;}
 #nav-div:hover{background-color: rgba(0, 0, 0, 0.507);}
+#logolinks>a:hover{color: antiquewhite;background-color: black;}

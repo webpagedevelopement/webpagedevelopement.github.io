@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    justify-content: center;
+}
+#wrapper{
+    width: 100%;
+    margin: auto;
+}
+body{
+    background-color: antiquewhite;
+}
+#logo-div{
+    background-color:black;
+    color: white;
+}
+#navbar{
+    background-color: cornflowerblue;
+}
+.button{
+    background-color: blanchedalmond;
+    color: black;
+    display: inline-block;
+    border-radius: 40%;
+    text-decoration: none;
+}
+#nav-div{
+    background-color: lightgray;
+}
+#header-banner{
+    background-image: url("stethoscope.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+#header-banner-txt{
+    color: blanchedalmond;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 200%;
+    
+}
+#intro-text{
+    background-color: lightgray;
+    font-size: 150%;
+    padding: 10px;
+    border: 3px solid black;
+    font-family:Arial, Helvetica, sans-serif
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box{
+    width: 48%;
+    background-color: lightgray;
+    display: inline-block;
+    height: 300px;
+    float: left;
+}
+.box>div{
+    text-decoration: underline;
+    font-size: larger;
+}
+#profesion{
+    background-color: rgba(173, 216, 230, 0.432);
+    margin-top: 50px;
+    height: 200px;
+    margin-right: 50px;
+    border: 3px solid black;
+}
+#education{
+    height: 200px;
+    background-color: rgba(135, 206, 250, 0.212);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    border: 3px solid black;
+}
+#footer-div{
+    background-color: lightgray;
+    margin-bottom: 0%;
+    display: block;
+    height: 100px;
+    font-size: large;
+}
+#footer-div>div{
+    font-weight: 600;
+    font-size: 150%;
+    float: right;
+}
