@@ -8,7 +8,7 @@
     margin: auto;
 }
 body{
-    background-color: antiquewhite;
+    background-image: linear-gradient(to right, rgb(102, 148, 163), rgb(173, 173, 173));
 }
 #logo-div{
     background-color:black;
@@ -16,6 +16,7 @@ body{
 }
 #navbar{
     background-color: cornflowerblue;
+    margin-bottom: 10px;
 }
 .button{
     background-color: blanchedalmond;
@@ -23,6 +24,8 @@ body{
     display: inline-block;
     border-radius: 40%;
     text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #nav-div{
     background-color: lightgray;
@@ -39,56 +42,103 @@ body{
     color: blanchedalmond;
     padding-left: 30px;
     padding-top: 20px;
-    font-size: 200%;
+    font-size: 275%;
     
 }
 #intro-text{
-    background-color: lightgray;
-    font-size: 150%;
+    background-color: darkcyan;
+    font-size: 175%;
     padding: 10px;
     border: 3px solid black;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    color: lightblue;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
+
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
-.box{
-    width: 48%;
-    background-color: lightgray;
-    display: inline-block;
-    height: 300px;
-    float: left;
+#main-div{
+    display: block;
+    text-align: center;
 }
+.box{
+    width: 49%;
+    background-color: rgb(19, 35, 59);
+    color: blanchedalmond;
+    display: inline-block;
+    min-height: 325px;
+    max-height: fit-content;
+    float: left;    
+}
+
 .box>div{
     text-decoration: underline;
-    font-size: larger;
+    font-size: x-large;
+}
+.topic{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 120%;
+    
 }
 #profesion{
-    background-color: rgba(173, 216, 230, 0.432);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
     margin-top: 50px;
-    height: 200px;
+    min-height: 200px;
+    max-height: min-content;
     margin-right: 50px;
     border: 3px solid black;
+    min-width: 80%;
+    margin-left: 10%;
 }
+#profesion>div{
+    color: rgb(124, 91, 47);
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 200%;
+    margin-left: 40px;
+}
+#education>div{
+    color: antiquewhite;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 200%;
+    margin-left: 40px;
+}
+
 #education{
-    height: 200px;
-    background-color: rgba(135, 206, 250, 0.212);
+    display: inline-block;
+    min-height: 200px;
+    max-height: min-content;
+    background-color: rgb(41, 41, 41);
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 200px;
     border: 3px solid black;
+    min-width: 80%;
+    margin-left: 10%;
 }
 #footer-div{
-    background-color: lightgray;
+    background-color: rgb(0, 0, 0);
     margin-bottom: 0%;
     display: block;
     height: 100px;
     font-size: large;
+    position: static;
+    bottom: 0px;
+    min-width: 95%;
+    color: antiquewhite;
+
 }
 #footer-div>div{
     font-weight: 600;
     font-size: 150%;
     float: right;
+    min-width: fit-content;
 }
+.topic:hover{background-color: darkgray;padding: 1px;}
+.button:hover{background-color: gray;color: blanchedalmond;}
