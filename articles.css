@@ -1,0 +1,51 @@
+*{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+#wrapper{
+    width: 100%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body{
+    font-family: garamond,georgia,helvetica;
+    align-items: center;
+    display: inline;
+    font-size: xx-large;
+    line-height: 1.2;
+    font-weight: 500;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bold{
+    font-weight: 600;
+    clear: left;
+    padding: 0;
+    margin-top: 20px;
+}
+#nav{
+    display: inline-block;
+    clear: both;
+    background-color: cadetblue;
+    display: flex;
+}
+a{
+    background-color: lightgreen;
+    color: black;
+    padding: 20px;
+    font-size: 150%;
+}
+.advert{
+    margin-top: 50px;
+    padding: 0;
+    
+}
