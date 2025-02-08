@@ -118,7 +118,7 @@ body{
     font-size: 110%;
     line-height: 30px;
     padding-left: 20px;
-    border: 5px solid plum;
+    border: 3px solid plum;
 }
 #footer-div{
     width: 100%;
@@ -157,7 +157,7 @@ body{
     font-weight: 700;
     font-family: monospace;
     max-width: 100%;
-    border: 1px solid plum;
+    border: 3px solid plum;
 }
 #side-div>p{
     margin: 0px;
