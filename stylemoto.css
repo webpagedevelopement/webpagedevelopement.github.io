@@ -5,7 +5,30 @@
     box-sizing: border-box;
 }
 
-#logo{
+#wrapper{
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0);
+    margin: auto;
+    padding: 2px;
+}
+#logo-div{
+    width: 100%;
+    min-height: 20px;
+    background-color: rgb(104, 104, 104);
+    padding-left: 2%;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 600;
     display: flex;
-    flex: right;
+    padding: 0px;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+#logo-div>p{
+    text-align: right;
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin-top: 15px;
 }
