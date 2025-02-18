@@ -60,52 +60,6 @@
     </div>
     </div>
 
-    <div class="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="motoylavado.html">
-              <img src="logo.gif" alt="Image 1">
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="index.html">
-              <img src="logo.gif" alt="Image 2">
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="index.html">
-              <img src="logo.gif" alt="Image 3">
-            </a>
-          </div>
-        </div>
-        <button class="carousel-control-prev" onclick="prevSlide()">&#10094;</button>
-        <button class="carousel-control-next" onclick="nextSlide()">&#10095;</button>
-      </div>
-    
-      <script>
-        let currentSlide = 0;
-    
-        function showSlide(index) {
-          const slides = document.querySelectorAll('.carousel-item');
-          if (index >= slides.length) currentSlide = 0;
-          if (index < 0) currentSlide = slides.length - 1;
-          slides.forEach((slide, i) => {
-            slide.classList.toggle('active', i === currentSlide);
-          });
-        }
-    
-        function prevSlide() {
-          currentSlide--;
-          showSlide(currentSlide);
-        }
-    
-        function nextSlide() {
-          currentSlide++;
-          showSlide(currentSlide);
-        }
-      </script>
-
-
     <div id="footer-div">
         <div id="copy">Derechos Reservados Industras A.M, 2025</div>
         <div id="contact">Consultas en General: eamayorgamejicanos@gmail.com</div>
