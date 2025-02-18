@@ -5,4 +5,7 @@
     box-sizing: border-box;
 }
 
-
+#logo{
+    display: flex;
+    flex: right;
+}
