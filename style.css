@@ -196,7 +196,7 @@ body{
 
   .carousel {
     position: bottom;
-    width: 100%;
+    width: 80%;
     max-width: 100px;
     overflow: hidden;
     border: 2px solid #ccc;
@@ -225,7 +225,7 @@ body{
   
   .carousel-control-prev,
   .carousel-control-next {
-    position: bottom;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
