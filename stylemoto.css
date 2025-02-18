@@ -29,3 +29,12 @@ body{
     margin-bottom: 10px;
     display: flex;
 }
+
+#headerb>a{
+    color: black;
+    background-color: rgb(250, 223, 248);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: inline;
+    text-decoration: none;
