@@ -30,7 +30,7 @@ body{
     display: flex;
 }
 
-#headerb>a{
+#nav-div>a{
     color: black;
     background-color: rgb(250, 223, 248);
     padding: 10px;
