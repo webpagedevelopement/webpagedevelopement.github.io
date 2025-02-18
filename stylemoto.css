@@ -20,7 +20,6 @@ body{
     padding: 5px;
 }
 
-
 #nav-div>a{
     color: black;
     background-color: rgb(250, 223, 248);
@@ -29,3 +28,4 @@ body{
     border: 2px solid black;
     display: inline;
     text-decoration: none;
+}
