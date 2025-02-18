@@ -193,17 +193,7 @@ body{
 #nav-div:hover{background-color: rgba(0, 0, 0, 0.507);}
 #logolinks>a:hover{color: antiquewhite;background-color: black;}
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
+
   .carousel {
     position: relative;
     width: 80%;
