@@ -11,6 +11,9 @@
     float: left;
     flex-flow: column;
 }
+.nav>a{
+    padding: auto;
+}
 
 .logo{
     display: flex;
