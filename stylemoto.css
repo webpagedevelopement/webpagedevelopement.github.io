@@ -16,7 +16,7 @@
 .logo{
     display: flex;
     float: right;
-    position: fixed;
+    position: relative;
     margin-right: 15px;
 }
 
