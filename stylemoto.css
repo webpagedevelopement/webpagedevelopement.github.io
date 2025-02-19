@@ -1,29 +1,18 @@
-
-.nav{
-    font-family: Arial, Helvetica, sans-serif;
-    size: 50px;
-    float: left;
-    flex-flow: column;
-}
 .nav>a{
-    padding: auto;
-    width: 100%;
-    background-color: rgba(255, 166, 0, 0);
-    margin: auto;
-    padding: 2px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    color: bisque;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: crosshair;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
-
-.logo{
-    display: flex;
-    float: right;
-    position: relative;
-    margin-right: 15px;
+.nav>a:hover{
+    background-color: #0056b3;
 }
-
-.wrapper{
-
-    background-color: cornflowerblue;
-    border: 3px;
-    border-color: plum;
-    display: flex;   
+.nav>a:active{
+    background-color: #004080;
 }
