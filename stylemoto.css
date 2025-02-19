@@ -40,7 +40,8 @@ nav{
  }
 
  @media (max-width: 768px) {
-    nav div {
-      display: none;
+    .nav>div{
+        font-size: 0.5rem;
+        line-height: 1.5;
     }
  }                                                                                                                                                                                                 
