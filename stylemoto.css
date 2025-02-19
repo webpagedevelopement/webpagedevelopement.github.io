@@ -7,7 +7,6 @@
 
 .nav{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: cornflowerblue;
     size: 50px;
     float: left;
     flex-flow: column;
@@ -22,12 +21,8 @@
 
 .wrapper{
 
-    size: 100%;
     background-color: cornflowerblue;
     border: 3px;
     border-color: plum;
-    display: flex;
-    flex: top;
-    clear: both;
-    position: absolute;
+    display: flex;   
 }
