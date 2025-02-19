@@ -5,8 +5,15 @@
     box-sizing: border-box;
 }
 
-.class{
+.nav{
     font-family: Arial, Helvetica, sans-serif;
     background-color: cornflowerblue;
     size: 50px;
+    float: left;
+    flex-flow: column;
+}
+
+.logo{
+    display: flex;
+    float: right;
 }
