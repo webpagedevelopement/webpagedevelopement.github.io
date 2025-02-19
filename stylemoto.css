@@ -15,12 +15,11 @@
 
 .logo{
     display: flex;
-    float: right;
-    position: fixed; 
-
+    float: left;
+    position: fixed;
 }
 
-#wrapper{
+.wrapper{
 
     size: 100%;
     background-color: cornflowerblue;
