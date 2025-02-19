@@ -15,8 +15,9 @@
 
 .logo{
     display: flex;
-    float: left;
+    float: right;
     position: fixed;
+    margin-right: 15px;
 }
 
 .wrapper{
