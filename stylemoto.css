@@ -68,6 +68,14 @@ nav{
     display:flex;
     clear: both;
     flex-direction: column;
+    position: bottom;
+     font-size: 10px;
+ }
+ 
+ footer{
+    display:flex;
+    clear: both;
+    flex-direction: column;
      margin-bottom: 0px;
      font-size: 10px;
  }
