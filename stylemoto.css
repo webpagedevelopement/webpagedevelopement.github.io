@@ -70,13 +70,11 @@ nav{
     flex-direction: column;
     position: bottom;
      font-size: 10px;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     padding: 10px;
  }
  
- footer{
-    display:flex;
-    clear: both;
-    flex-direction: column;
-     margin-bottom: 0px;
-     font-size: 10px;
- }
-                                                                                                                                                                                    
+                                                                                                                                                                           
