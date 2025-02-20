@@ -26,7 +26,7 @@ nav{
  
  li a:hover{
      background-color: #0056b3;
-     opacity: 80%;
+     opacity: 90%;
      border-radius: 3px;
      border: none;
  }
@@ -39,7 +39,7 @@ nav{
  }
  .banner-text {
      background-color: url(quetzalvolador.jpg) ;
-     position: absolute;
+     position:top;
      left: 0;
      bottom: 26px;
      width: 100%;
@@ -53,5 +53,22 @@ nav{
  .button{
      padding: 10px;
      background-color: aquamarine;
+     border: none;
+     border-radius: 15px;
+     text-decoration: none;
+ }
+ .button:hover{
+     background-color: cornflowerblue;
+     transition: background-color 0.5s ease-in-out;
+ }
+ 
+ 
+ 
+ footer{
+    display:flex;
+    clear: both;
+    flex-direction: column;
+     margin-bottom: 0px;
+     font-size: 10px;
  }
                                                                                                                                                                                     
