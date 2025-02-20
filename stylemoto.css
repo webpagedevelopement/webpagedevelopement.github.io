@@ -50,7 +50,7 @@ nav{
      padding-bottom: 24px;
      margin-bottom: 30px;
  }
- a{
+ .button{
      padding: 10px;
      background-color: aquamarine;
  }
