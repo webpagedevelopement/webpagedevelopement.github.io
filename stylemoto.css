@@ -85,7 +85,19 @@ nav{
     clear: both;
     position: bottom;
     bottom: 0;
-    left: 0;
     position: fixed;
-    
+ }
+.cont>div{
+    width: 30%;
+    height: 250px;
+    background-color: chocolate;
+    margin: 10px;
+    text-align: justify;
+    padding: 10px;
+  
+}
+.cont{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
 }
