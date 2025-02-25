@@ -29,4 +29,13 @@ nav ul li a:hover{
 
 .foto{
     background-image: url(fab.png);
+    height: 400px;
+    color: wheat;
+    font-size: xx-large;
+    display: flex;
+}
+.foto h2{
+    padding: 5px;
+    margin-left: 100px;
+    font-family: sans-serif;
 }
