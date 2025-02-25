@@ -186,7 +186,7 @@ body{
 }
 
 #navlinks>a:hover{background-color:rgb(115, 103, 226);transition: .1s;}
-#headerb:hover{ background-color: black;transition: 0.75s;}
+#headerb:hover{ background-color: rgb(0, 255, 55);transition: 0.75s;}
 #headerb>p:hover{color: lightgray;transition:}
 #side-div>p:hover{font-size: 250%;color: greenyellow;}
 #headerb:hover .banner-div{color: antiquewhite;}
